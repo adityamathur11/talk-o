@@ -1,0 +1,35 @@
+{
+  "name": "talk-o",
+  "version": "1.0.0",
+  "description": "A website which enables you to chat with other people easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "set NODE_ENV=dev&&node Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityamathur11/talk-o.git"
+  },
+  "keywords": [
+    "Socket.io",
+    "Node.js",
+    "Angular.js"
+  ],
+  "author": "Aditya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityamathur11/talk-o/issues"
+  },
+  "homepage": "https://github.com/adityamathur11/talk-o#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.10.8",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "socket.io": "^2.0.3"
+  }
+}
